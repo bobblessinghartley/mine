@@ -93,7 +93,7 @@ graph LR
     A --> B --> C --> D
 
     Institutional[Institutional<br/>Use Cases] -.->|"Optimal Balance"| C
-    Regulatory[Regulatory<br/>Requirements| -.->|"Acceptable"| C
+    Regulatory[Regulatory<br/>Requirements] -.->|"Acceptable"| C
 
     style A fill:#FFB6C1
     style B fill:#FFE4B5
@@ -254,23 +254,23 @@ graph TB
 
 ```mermaid
 gantt
-    title Evolution of Privacy Approaches in DLT
-    dateFormat YYYY
+title Evolution of Privacy Approaches in DLT
+dateFormat YYYY
 
-    section Public Transparency
-    Bitcoin/Ethereum Era                    :2009, 2015
+section Public Transparency
+Bitcoin/Ethereum Era                    :2009, 2015
 
-    section Access Control
-    Hyperledger/Corda                       :2015, 2020
+section Access Control
+Hyperledger/Corda                       :2015, 2020
 
-    section Cryptographic Privacy
-    Zcash/Monero (Anonymous)                :2016, 2024
+section Cryptographic Privacy
+Zcash/Monero (Anonymous)                :2016, 2024
 
-    section Selective Disclosure
-    Privacy L1s/L2s (Compliant)            :2020, 2026
+section Selective Disclosure
+Privacy L1s/L2s (Compliant)            :2020, 2026
 
-    section Programmable Privacy
-    Compact + ZK (Institutional)            :2023, 2027
+section Programmable Privacy
+Compact + ZK (Institutional)            :2023, 2027
 ```
 
 ---
@@ -371,8 +371,6 @@ graph TB
     style Proof fill:#F0E6FF
     style Compliance fill:#E6FFE6
 ```
-
----
 
 ## Usage Notes for Panel
 
